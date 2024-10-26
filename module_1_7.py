@@ -1,0 +1,22 @@
+grades=[[5,3,3,5,4],[2,2,2,3],[4,5,5,2],[4,4,3],[5,5,5,4,5]]
+students={"Johny","Bilbo","Steve", "Khendrik","Aaron"}
+Aaron=(grades[0])
+#print(Aaron)
+#print(len(Aaron))
+#print(sum(Aaron))
+total_aaron=(sum(Aaron)/len(Aaron))
+#print(total_aaron)
+Bilbo=(grades[1])
+total_bilbo=(sum(Bilbo)/len(Bilbo))
+#print(total_bilbo)
+Johny=(grades[2])
+total_johny=(sum(Johny)/len(Bilbo))
+#print(total_johny)
+Khendrik=(grades[3])
+total_khendrik=(sum(Khendrik)/len(Khendrik))
+#print(total_khendrik)
+Steve=(grades[4])
+tottal_steve=(sum(Steve)/len(Steve))
+#print(tottal_steve)
+total={"Aaron":total_aaron,"Bilbo":total_bilbo,"Johny":total_johny,"Khendrik":total_khendrik,"Steve":tottal_steve}
+print(total)
